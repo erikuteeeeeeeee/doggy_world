@@ -1,0 +1,91 @@
+@charset "UTF-8";
+@media (min-width: 700px) {
+  #headline::before {
+    content: "Sveiki atvykę į Šunų Pasaulį!";
+  }
+}
+
+@media (max-width: 699px) {
+  #headline::before {
+    content: "Sveiki atvykę!";
+  }
+}
+
+img {
+  margin: 50px;
+}
+
+#img1 {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#headline, #ptext {
+  text-align: center;
+  font-size: 60px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#ptext {
+  font-size: 32px;
+}
+
+.box h1, #veisle, .info, .table_headline {
+  background-color: #dbb05a;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  font-size: 40px;
+}
+
+.veisles {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 25px;
+  text-align: left;
+}
+
+.images {
+  margin: 50px;
+  width: 80%;
+}
+
+.info {
+  font-size: 25px;
+  margin: 50px;
+  padding: 20px;
+}
+
+.table_headline {
+  font-size: 36px;
+}
+
+table {
+  border: 1px solid black 2px;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: cornsilk;
+  text-align: center;
+}
+
+table th {
+  padding: 5px;
+  text-align: centre;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid black;
+}
+
+table td {
+  padding: 5px;
+  padding: 5px;
+  text-align: centre;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+  border: 1px solid black;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,1 @@
+This webpage is designed in order to present different breeds of dogs and help future owners to decide on the dog they want. There are only 3 breeds presented at the moment, but webpage possibly expanded later in the future.

@@ -1,0 +1,108 @@
+$color: #dbb05a;
+$font:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+$border: 1px solid black;
+
+@media (min-width: 700px) {
+    #headline::before {
+        content: "Sveiki atvykę į Šunų Pasaulį!";
+    }
+}
+
+@media (max-width: 699px) {
+    #headline::before {
+        content: "Sveiki atvykę!";
+    }
+}
+
+img {
+    margin: 50px;
+}
+
+#img1 {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#headline, #ptext {
+    text-align: center;
+    font-size: 60px;
+    font-family: $font;
+}
+
+#ptext {
+    font-size: 32px;
+}
+
+.box {
+
+    h1 {
+        @extend %headlines;
+    }
+}
+
+#veisle {
+    @extend %headlines;
+}
+
+%headlines {
+    background-color: $color;
+    font-family: $font;
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.veisles {
+    font-family: $font;
+    font-size: 25px;
+    text-align: left;
+}
+
+.images {
+    margin: 50px;
+    width: 80%;
+}
+
+.info {
+    @extend %headlines;
+    font-size: 25px;
+    margin: 50px;
+    padding: 20px;
+}
+
+.table_headline {
+    @extend %headlines;
+    font-size: 36px;
+}
+
+table {
+    border: $border 2px;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: cornsilk;
+    text-align: center;
+    
+
+    th {
+        padding: 5px;
+        text-align: centre;
+        font-family: $font;
+        font-size: 20px;
+        font-weight: bold;
+        border: $border;
+    }
+
+    td {
+        padding: 5px;
+        padding: 5px;
+        text-align: centre;
+        font-family: $font;
+        font-size: 20px;
+        border: $border;
+    }
+}
